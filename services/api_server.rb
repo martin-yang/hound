@@ -1,6 +1,6 @@
 module ApiServer
   def self.url_head
-    I18n.t "baihuogou"
+    I18n.t "url_head"
   end
 
   def self.public_attribute
@@ -8,11 +8,11 @@ module ApiServer
   end
 
   def self.app_key_default
-    "5a4d4651f0f7fe32bd78e670a1f99539"
+    ""
   end
 
   def self.app_secret_default
-    "ef6e8a8feb069f3e3d7f7097f0153ac7"
+    ""
   end
 
   def self.rest_go(method,url,attribute={})
