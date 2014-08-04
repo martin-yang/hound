@@ -19,9 +19,9 @@ ActiveRecord::Base.configurations[:development] = {
   :adapter => 'postgresql',
   :host => 'localhost',
   :port => '5432',
-  :database => 'hound_db',
+  :database => 'test',
   :username  => 'postgres',
-  :password  => 'ts3qdf'
+  :password  => ''
 
 }
 
@@ -31,9 +31,9 @@ ActiveRecord::Base.configurations[:production] = {
   :adapter => 'postgresql',
   :host => 'localhost',
   :port => '5432',
-  :database => 'hound_db',
+  :database => 'test',
   :username  => 'postgres',
-  :password  => 'ts3qdf'
+  :password  => ''
 
 }
 
@@ -43,9 +43,9 @@ ActiveRecord::Base.configurations[:test] = {
   :adapter => 'postgresql',
   :host => 'localhost',
   :port => '5432',
-  :database => 'hound_test',
+  :database => 'test',
   :username  => 'postgres',
-  :password  => 'ts3qdf'
+  :password  => ''
 
 }
 
