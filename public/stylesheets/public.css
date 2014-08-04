@@ -1,0 +1,94 @@
+
+a{
+  text-decoration:none;
+  cursor:pointer;
+}
+.widget-box{
+  background: none repeat scroll 0 0 #FFFFFF;
+  clear: both;
+  margin: 10px 0;
+  border:  1px solid #eaeaea;
+}
+
+.widget-box .widget-title {
+  height: 36px;
+  line-height: 36px;
+  padding:  0 15px;
+}
+
+.widget-box .widget-title h2{
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.widget-box .widget-title h3{
+  font-size: 14px;
+  font-weight: normal;
+   margin: 0;
+   float: left;
+}
+
+.widget-box .widget-title .title-tag{
+  float: right;
+}
+
+.widget-box .widget-title .title-tag li a{
+  border-left: 1px solid #eaeaea;
+  padding: 0 10px;
+  color: #28B779;
+}
+
+.widget-box .widget-content{
+    padding: 10px 20px;
+}
+
+.widget-box .widget-content-table{
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+.widget-box .widget-content-table a{
+  color: #28B779;
+}
+
+.widget-box .widget-content-table table{
+  border: 0 none;
+}
+
+.widget-box .widget-content-table table td:first-child,.widget-box .widget-content-table table th:first-child{
+  border-left: 0 none ;
+  text-align: center;
+}
+
+
+.widget-box  .title-bar{
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #eaeaea;
+}
+.span,.span3,.span4,.span5,.span6,.span7{
+float: left;
+margin-left: 2%;
+}
+.span:first-child,.span3:first-child,.span4:first-child,.span5:first-child,.span6:first-child,.span7:first-child{
+margin: 0;
+}
+.span3{
+width: 32%;
+}
+
+.span4{
+width: 40%;
+}
+
+.span6{
+width: 58%;
+}
+
+.span7{
+width: 66%;
+}
+
+.span5{
+width: 49%;
+}
